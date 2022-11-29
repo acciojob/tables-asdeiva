@@ -11,8 +11,9 @@
 <body>
 	<!-- the entire body must be written by student -->
 <div class="container">
-<label for="table">List of all transcations</label>
+	
 	<table class="table table-hover">
+		<caption style="caption-side:top">List of all transcations</caption>
 		<thead class="table-dark">
 			<tr>
 				<th scope="col">#</th>
@@ -40,10 +41,13 @@
 			<td>the Bird</td>
 			<td>2000</td>
 		  </tr>
-		  <tr>
-			<td colspan="3" id="total" class="fw-bold font-monospace text-end">Total</td>
-			<td class="fw-bold">4000</td>
-		</tr>
+		  <tfoot class="table-light">
+
+			  <tr>
+				  <td colspan="3" id="total" class="fw-bold font-monospace text-end">Total</td>
+				  <td class="fw-bold">4000</td>
+				</tr>
+			</tfoot>
 		  
 		</tbody>
 		
